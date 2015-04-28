@@ -13,5 +13,20 @@ $('#btnbeep').on ('tap' , function() {
 
 }); //tap btnbeep
 
+$('#izquierda').on('swipeleft', function(){
+	
+	alert("barrio a la izq")
+	
+});
+
+$('#derecha').on('swipright', function (){
+	
+	alert("barrio a la der")
+	
+});
+
+
+
+
 });
 });
