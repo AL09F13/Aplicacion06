@@ -9,7 +9,8 @@ $('#btnvibrar').on ('tap', function() {
 });  // tap btn_vibrar
 
 $('#btnbeep').on ('tap' , function() {
-	  navigator.beep(1);
+	  navigator.notification.beep(2);
+	  
 
 }); //tap btnbeep
 

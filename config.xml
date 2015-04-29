@@ -23,13 +23,15 @@
    <preference name="android-installLocation"  value="auto" />  
    <preference name="SplashScreen" value="splash"/>
    <preference name="SplashScreenDelay" value="5000"/>
+   
 
 
    <!-- Plugins -->  
    <!-- Core plugins -->  
 
    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />  
-   <gap:plugin name="org.apache.cordova.vibration" />  
+   <gap:plugin name="org.apache.cordova.vibration" /> 
+   <gap:plugin name="org.apache.cordova.dialogs" /> 
 
    <!-- Third party plugins -->  
    
