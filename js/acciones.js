@@ -19,7 +19,7 @@ $('#izquierda').on('swipeleft', function(){
 	
 });
 
-$('#derecha').on('swipright', function (){
+$('#derecha').on('swiperight', function (){
 	
 	alert("barrio a la der")
 	
