@@ -1,33 +1,33 @@
 // JavaScript Document
 $(document).ready(function(e) {
 document.addEventListener("deviceready",function(){
-
-$('#btnvibrar').on ('tap', function() {
+$('#btnvibrar').on('tap',function(){
 	navigator.vibrate(1000);
-	
-	
-});  // tap btn_vibrar
 
-$('#btnbeep').on ('tap' , function() {
-	  navigator.notification.beep(2);
-	  
-
-}); //tap btnbeep
-
-$('#izquierda').on('swipeleft', function(){
-	
-	alert("barrio a la izq")
-	
+}); //tap a btnvibrar
+$('#btnbeep').on('tap',function(){
+	navigator.beep(1);
 });
 
-$('#derecha').on('swiperight', function (){
+$('#izquierda').on('swipeleft',
+function (){
+	alert("Barrio a la izquierda");
+});
+
+$('#derecha').on('swiperight',
+function (){
+	alert("Barrio a la derecha");
 	
-	alert("barrio a la der")
+       
+	   document. addEventListener("pause",function(){
+		$ ("#listado"). append ("<p>se pauso </p>");
+       });
+	   
+	   $(window).on ("orientationchange",function(e){
+		   $("#listado"). append ("<p>orientacion: "+ e.orientation +"</p>");
+	   });
 	
 });
-
-
-
-
+}); 
 });
-});
+
